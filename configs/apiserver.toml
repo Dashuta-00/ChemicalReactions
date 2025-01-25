@@ -1,0 +1,11 @@
+bind_addr = "127.0.0.1:5555"
+log_level = "debug"
+#host       = "127.0.0.1"
+#port       = 5555
+#username   = "postgres"
+#password   = "daSK0-8Ri10-P4gfy-2SayB"
+#dbname     = "ApplicationDB"
+#secret_key = "my_secret_key"
+database_url = "host=localhost port=5432 user=postgres password=daSK0-8Ri10-P4gfy-2SayB dbname=ApplicationDB sslmode=disable"
+jwtSecret_access = "my-secret-key"
+jwtSecret_refresh = "my-secret-refresh-key"
